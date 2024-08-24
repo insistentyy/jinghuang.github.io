@@ -32,9 +32,7 @@ redirect_from:
 
 # 🔥 News
 
-# 🧪 Research Experience
-
-## 🧠 Graph Neural Networks
+# 🧠 Research Experience(Graph Neural Networks)
 
 ## **💡 DicTED - 预训练嵌入蒸馏增强字典图神经网络** <sub> &nbsp;&nbsp;[[项目代码]](https://github.com/Samer-hue/DicTED)</sub>
 
@@ -53,7 +51,7 @@ redirect_from:
 
 ---
 
-## 🖼️ Computer Vision
+# 🖼️ Research Experience(Computer Vision)
 
 ## **💡 FreeMRISeg - 磁共振图像分割**  
 - **时间：** 2024.2 - 2024.6  
@@ -89,7 +87,7 @@ redirect_from:
 
 ---
 
-## 🧩 Large Language Models
+# 🧩 Research Experience(Large Language Models)
 
 ## **💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) | [[Leaderboard]](https://www.kaggle.com/competitions/asl-fingerspelling/leaderboard)</sub>  
 
@@ -137,7 +135,7 @@ redirect_from:
 
 ---
 
-## 📊 Mathematical Modeling
+# 📊 Research Experience(Mathematical Modeling)
 
 ## **💡 母亲身心健康对婴儿睡眠质量的影响分析** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
 
