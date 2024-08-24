@@ -36,7 +36,7 @@ redirect_from:
 
 ## 🧠 Graph Neural Networks
 
-### **💡 DicTED - 预训练嵌入蒸馏增强字典图神经网络** <sub> &nbsp;&nbsp;[[项目代码]](https://github.com/Samer-hue/DicTED)</sub>
+## **💡 DicTED - 预训练嵌入蒸馏增强字典图神经网络** <sub> &nbsp;&nbsp;[[项目代码]](https://github.com/Samer-hue/DicTED)</sub>
 
 - **时间：** 2023.3 - 2024.3  
 - **领域：** **图神经网络**  
@@ -55,7 +55,7 @@ redirect_from:
 
 ## 🖼️ Computer Vision
 
-### **💡 FreeMRISeg - 磁共振图像分割**  
+## **💡 FreeMRISeg - 磁共振图像分割**  
 - **时间：** 2024.2 - 2024.6  
 - **领域：** **计算机视觉**，**医工交叉**  
 - **角色：** 共同第一作者  
@@ -71,7 +71,7 @@ redirect_from:
 
 ---
 
-### **💡 DtFormer - 基于自训练范式的恶劣天气场景鲁棒语义分割** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/DtFormer/README.html) | [[项目代码]](https://github.com/mumuyeye/DtFormer)</sub>
+## **💡 DtFormer - 基于自训练范式的恶劣天气场景鲁棒语义分割** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/DtFormer/README.html) | [[项目代码]](https://github.com/mumuyeye/DtFormer)</sub>
 
 - **时间：** 2023.8 - 2024.1  
 - **领域：** **计算机视觉**，**域适应**  
@@ -91,7 +91,7 @@ redirect_from:
 
 ## 🧩 Large Language Models
 
-### **💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) | [[Leaderboard]](https://www.kaggle.com/competitions/asl-fingerspelling/leaderboard)</sub>  
+## **💡 Kaggle: LMSYS-Chatbot Arena Human Preference Predictions** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/lmsys-chatbot-arena) | [[Leaderboard]](https://www.kaggle.com/competitions/asl-fingerspelling/leaderboard)</sub>  
 
 - **时间：** 2024.5 - 2024.8  
 - **领域：** **大语言模型**，**大语言模型微调**  
@@ -104,7 +104,7 @@ redirect_from:
 
 ---
 
-### **💡 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text) | [[Leaderboard]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/leaderboard)</sub>  
+## **💡 Kaggle: LLM-Detect AI Generated Text** <sub> &nbsp;&nbsp;[[比赛介绍]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text) | [[Leaderboard]](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/leaderboard)</sub>  
 
 - **时间：** 2023.11 - 2024.1  
 - **领域：** **大语言模型**，**大语言模型微调**  
@@ -117,7 +117,7 @@ redirect_from:
 
 ---
 
-### **💡 FuzzLLM - 主动发现LLM中越狱漏洞的新型通用模糊测试框架** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/FuzzLLM_demo/) | [[项目代码]](https://github.com/mumuyeye/FuzzLLM/tree/muye)</sub>
+## **💡 FuzzLLM - 主动发现LLM中越狱漏洞的新型通用模糊测试框架** <sub> &nbsp;&nbsp;[[项目主页]](https://mumuyeye.github.io/FuzzLLM_demo/) | [[项目代码]](https://github.com/mumuyeye/FuzzLLM/tree/muye)</sub>
 
 - **时间：** 2023.6 - 2023.11  
 - **领域：** **大语言模型**，**人工智能安全**  
@@ -139,7 +139,7 @@ redirect_from:
 
 ## 📊 Mathematical Modeling
 
-### **💡 母亲身心健康对婴儿睡眠质量的影响分析** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
+## **💡 母亲身心健康对婴儿睡眠质量的影响分析** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
 
 - **时间：** 2023.4 - 2023.5  
 - **领域：** **数学建模**  
@@ -156,7 +156,7 @@ redirect_from:
 
 ---
 
-### **💡 基于计算几何和遗传算法的多波束测深和测线布设模型** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
+## **💡 基于计算几何和遗传算法的多波束测深和测线布设模型** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
 
 - **时间：** 2023.4 - 2023.5  
 - **领域：** **数学建模**  
@@ -172,7 +172,7 @@ redirect_from:
 
 ---
 
-### **💡 基于仿真模拟的三角形纯方位无源定位模型** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
+## **💡 基于仿真模拟的三角形纯方位无源定位模型** <sub> &nbsp;&nbsp;[[项目报告]](https://mumuyeye.github.io/docs/huazhongbei.pdf)</sub>  
 
 - **时间：** 2023.4 - 2023.5  
 - **领域：** **数学建模**  
