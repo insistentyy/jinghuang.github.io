@@ -194,7 +194,7 @@ redirect_from:
 
 <ul style="font-size: 1.15em;">
     <li><b>2021-2022</b> <b>国家奖学金</b> (该年度年级成绩排名：1/108) *兰州大学* &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/guojiang.pdf)</li>
-    <li><b>2021-2022</b> <b>兰州大学优秀学生一等奖学金</b> (获奖率：3%) *兰州大学*</li>
+    <li><b>2021-2022</b> <b>兰州大学优秀学生一等奖学金</b> (获奖率：3%) _兰州大学_</li>
     <li><b>2021-2022</b> <b>兰州大学学生标兵</b> *兰州大学*</li>
 </ul>
 
