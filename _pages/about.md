@@ -20,7 +20,7 @@ redirect_from:
 <div style="text-align: center; margin-bottom: 30px;">
     <h1 style="font-family: Georgia, serif; font-size: 2.5em; color: #2a4d69;">刘一澎</h1>
     <p style="font-size: 1.25em; color: #4b86b4;">兰州大学信息科学与工程学院 · 计算机科学与技术专业 · 本科三年级</p>
-    <hr style="width: 50%; border: 1px solid #4b86b4;">
+    <hr style="width: 100%; border: 1px solid #4b86b4;">
 </div>
 
 <p style="text-align: justify; font-size: 1.15em; margin-bottom: 30px;">
