@@ -25,7 +25,6 @@ redirect_from:
     <hr style="width: 100%; border: 1px solid #4b86b4;">
 </div>
 
-
 <p style="text-align: justify; font-size: 1.15em; margin-bottom: 30px;">
     大家好！我是 <b>刘一澎</b>，目前是本科三年级学生，专注于人工智能和计算机科学的交叉研究领域。
     自入学以来，我积极参与各类科研项目和学术竞赛，并获得了多项荣誉与奖项。我特别关注
