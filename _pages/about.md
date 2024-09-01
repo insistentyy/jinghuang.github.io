@@ -44,101 +44,73 @@ redirect_from:
 </ul>
 
 
-
-<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🧠 科研经历 - 图神经网络</h2>
+<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🧠 研究经历 (主要) (图学习)</h2>
 
 <div style="margin-bottom: 30px;">
-    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">DicTED - 基于预训练嵌入蒸馏的字典图神经网络</h3>
-    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/DicTED/README.html" style="color: #4b86b4;">[项目主页]</a> | <a href="https://github.com/Samer-hue/DicTED" style="color: #4b86b4;">[项目代码]</a></sub></p>
-    <p style="font-size: 1.15em;"><b>时间：</b> 2023.3 - 2024.3</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 图神经网络，知识蒸馏</p>
+    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">DicTED-预训练嵌入蒸馏增强字典图神经网络</h3>
+    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/DicTED/README.html" style="color: #4b86b4;">[项目主页]</a> | <a href="https://github.com/Samer-hue/DicTED" style="color: #4b86b4;">[项目代码]</a> | <a href="https://link.springer.com/chapter/10.1007/978-981-97-5678-0_29" style="color: #4b86b4;">[论文链接]</a></sub></p>
+    <p style="font-size: 1.15em;"><b>时间：</b> 2023.03 - 2024.03</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 图学习</p>
     <p style="font-size: 1.15em;"><b>角色：</b> 独立第一作者</p>
     <p style="font-size: 1.15em;"><b>研究背景：</b></p>
     <ul style="font-size: 1.15em;">
-        <li>时序图学习通过引入时间维度来扩展传统图学习的能力，但现有方法在获取多源信息时复杂度较高。</li>
-        <li>字典时序图网络虽然通过存储邻域信息优化了性能，但对初始特征的依赖可能导致冷启动问题，并且频繁更新会引发灾难性遗忘。</li>
+        <li>时序图学习通过将时间维度纳入分析(引入了新的技术来建模和分析图的时间动态)扩展了传统图学习方法的能力。然而，数据结构的约束往往导致现有方法中获取多源信息的复杂性极高，频繁的更新和训练也常会致使记忆问题。</li>
+        <li>为了解决上述挑战，出现了一类称为字典时序图网络的技术。这种方法聚集邻域信息并将其存储为字典，然后根据需要进行匹配和提取，与现有方法相比，字典网络在训练过程中可以更加灵活地存储、更新和计算，从而获得更好的性能。</li>
+        <li>然而，字典时序图网络虽然可以方便地存储更新的嵌入信息，但在初始化阶段严重依赖于图数据的特征。如果没有可靠的特征集，模型往往会陷入冷启动问题，从而对后续的训练结果产生负面影响或大大延长训练时间。同时，字典中的嵌入信息是不断更新的，在训练过程中，由于新知识不断覆盖已有知识，模型会在训练后期逐渐失去对旧知识的掌握，并往往会致使灾难性遗忘问题，这对模型全面获取信息的能力产生了重大挑战。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
+    <p style="font-size: 1.15em;"><b>我们的方法：</b></p>
     <ul style="font-size: 1.15em;">
-        <li><b>预训练嵌入蒸馏：</b> 构建基于预训练嵌入蒸馏的字典时序图网络，通过聚合多个预训练教师模型生成嵌入，解决冷启动和灾难性遗忘问题。</li>
-        <li><b>优化策略：</b> 将先验特征与原始特征结合，增强模型初始化效果；通过对齐嵌入损失和预测分数损失提高模型性能。</li>
+        <li>构建基于预训练嵌入蒸馏的字典时序图网络(DicTED)，引入多个预训练的教师模型来生成嵌入，然后将其融合为DicTED的先验特征，在不过度增加模型复杂性的前提下，有效地解决了上述问题。</li>
+        <li>输入端：将先验特征与原始特征相结合，增强模型初始化，使模型在训练中获得更可靠的信息,成功解决训练前期的冷启动问题。</li>
+        <li>优化端：优化模型的嵌入损失和预测分数损失，促使训练节点嵌入与先验特征尽可能对齐，从而尽可能地保留原始信息，成功解决训练后期的灾难性遗忘问题。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>在多个真实数据集上，DicTED展示了优于现有SOTA方法的性能表现。</li>
-        <li>作为独立第一作者的论文已被ICIC 2024 (CCF-C) 录用并发表。<a href="https://link.springer.com/chapter/10.1007/978-981-97-5678-0_29" style="color: #4b86b4;">[论文全文]</a></li>
-    </ul>
+    <p style="font-size: 1.15em;"><b>研究成果：</b> 在多个真实数据集上的实验表明，DicTED优于现有的SOTA方法。</p>
 </div>
 
 <div style="margin-bottom: 30px;">
     <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">基于拓扑能量的联邦图后门攻击防御策略</h3>
-    <p style="font-size: 1.15em;"><b>时间：</b> 2024.3 - 2024.8</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 图神经网络，联邦学习，后门攻击防御</p>
+    <p style="font-size: 1.15em;"><b>时间：</b> 2024.04 - 2024.08</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 联邦图学习</p>
     <p style="font-size: 1.15em;"><b>角色：</b> 共同第一作者</p>
     <p style="font-size: 1.15em;"><b>研究背景：</b></p>
     <ul style="font-size: 1.15em;">
-        <li>联邦图学习通过协同训练保护数据隐私，但其分布式特性引入了后门攻击的安全风险。</li>
-        <li>现有防御方法在联邦图学习环境下效果不佳，尤其在大规模恶意客户端场景中。</li>
+        <li>联邦图学习(FGL)通过允许多个客户端在保护敏感数据隐私的同时协同训练共享的全局模型，为分布式图数据的建模和分析提供了新的范式。</li>
+        <li>FGL的分布式特性也引入了新的漏洞，特别是来自恶意参与者的后门攻击，这些攻击会在训练过程中注入有害数据或模型，从而在特定条件下触发错误的模型输出。</li>
+        <li>图数据通常表现出非IID特性和复杂的拓扑结构，致使联邦学习中针对后门攻击的防御方法在FGL环境下往往难以有效发挥作用。</li>
+        <li>另外一些方法试图简单地计算客户端之间的距离或某些分布的相似性，而没有任何额外的处理来区分恶/良性客户端，使得其仍然是耦合的。同时，大多数方法没有充分考虑数据异质性给它们测量的指标带来的额外挑战。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
+    <p style="font-size: 1.15em;"><b>我们的方法：</b></p>
     <ul style="font-size: 1.15em;">
-        <li><b>拓扑能量客户端聚类：</b> 通过量化客户端数据分布的差异，识别潜在的恶意客户端。</li>
-        <li><b>拓扑能量相似性传播：</b> 构建能量图，解耦恶意和良性客户端的能量元素，提升防御效果。</li>
+        <li>引入了一种基于能量视角的创新框架，从微观和宏观两个层面来解决上述问题。</li>
+        <li>在微观层面，引入拓扑能量客户端聚类TNC来解决复杂拓扑触发器问题：TNC量化了客户端数据分布的差异，将全面的分布感知注入到局部模型中，使其现有的预测能力与辨别数据能量分布的能力相结合。</li>
+        <li>在宏观层面，提出了拓扑能量相似性TSP，进一步解耦恶意和良性客户端的能量分布：收集每个客户端的能量分布，并基于客户端上传的能量分布的相似性建立能量图。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>在多个场景下的实验表明，我们的方法优于当前的SOTA方法。</li>
-        <li>论文正在撰写中，预计投稿至ICLR 2025。</li>
-    </ul>
+    <p style="font-size: 1.15em;"><b>研究进度：</b> 在IID / 非IID场景下的五个主流数据集上进行了实验，结果表明我们的方法优于目前的SOTA。当前工作已进入实验收尾阶段，论文写作中，预计投稿至ICLR 2025。</p>
 </div>
 
-<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🖼️ 科研经历 - 计算机视觉</h2>
+
+<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🖥️ 研究经历 (其它) (计算机视觉、大语言模型、可视化)</h2>
 
 <div style="margin-bottom: 30px;">
-    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">FreeMRISeg - 磁共振图像分割</h3>
-    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/MRI-Segmentation/README.html" style="color: #4b86b4;">[项目主页]</a> | <a href="https://github.com/Samer-hue/MRI-Segmentation" style="color: #4b86b4;">[项目代码]</a></sub></p>
+    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">FreeMRISeg-磁共振图像分割</h3>
+    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/MRI-Segmentation/README.html" style="color: #4b86b4;">[Homepage]</a> | <a href="https://github.com/Samer-hue/MRI-Segmentation" style="color: #4b86b4;">[Code]</a></sub></p>
     <p style="font-size: 1.15em;"><b>时间：</b> 2022.9 - 2022.12</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 计算机视觉，医工交叉</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 计算机视觉、医工交叉</p>
     <p style="font-size: 1.15em;"><b>角色：</b> 团队负责人</p>
     <p style="font-size: 1.15em;"><b>研究背景：</b></p>
     <ul style="font-size: 1.15em;">
-        <li>深度学习在医学图像处理中的应用广泛，但训练分割模型需要大量标注数据，获取成本高。</li>
+        <li>深度学习技术近年来在医学图像处理方面展现出了优秀的能力，其在磁共振成像(MRI)扫描或计算机断层扫描(CT)上往往可以对患者的病变进行有效的定位和分割。</li>
+        <li>然而，训练这些分割模型需要大量专业医生手动标注的像素级标签，这与更容易获得的图像级标签相比更加耗时且费力。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
+    <p style="font-size: 1.15em;"><b>我们的方法：</b></p>
     <ul style="font-size: 1.15em;">
-        <li><b>弱监督语义分割：</b> 设计一个利用图像级标签作为监督的弱监督语义分割模型，减少对手动标注的依赖。</li>
-        <li><b>分类与分割结合：</b> 通过分类生成像素级标签，并将其用于分割任务。</li>
+        <li>设计了一个使用图像级标签作为监督的弱监督语义分割模型解决了这一问题，其主要包含[分类]、[分割]两部分。</li>
+        <li><b>分类任务部分：</b> 首先使用选定的卷积神经网络（在AlexNet、GoogLeNet、VGG、ResNet中测试效果，最终选择ResNet）对公开的已有图像级标签数据集（如：RSNA2019）进行分类训练，之后使用CAM推理判断分类网络关注点并从CAM图得到Mask，同时使用CRF优化mask，得到像素级标签并和专家标注的ground mask比较效果。</li>
+        <li><b>分割任务部分：</b> 使用分类任务得到的像素级标签来训练分割网络（backbone选取Deeplabv3、Trans-Unet、Swin-Unet、MT-Unet），完成整个弱监督分割工作流。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>该项目成功申请为“中央高校基本科研业务专项资金”本科生项目。</li>
-    </ul>
+    <p style="font-size: 1.15em;"><b>研究成果：</b> 该科研课题成功申请为“中央高校基本科研业务专项资金”本科生项目。</p>
 </div>
 
-<div style="margin-bottom: 30px;">
-    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">PDGPSeg - 基于渐进式域间隙解耦的大雾场景语义分割</h3>
-    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/PDGPSeg/README.html" style="color: #4b86b4;">[项目主页]</a> | <a href="https://github.com/Samer-hue/PDGPSeg" style="color: #4b86b4;">[项目代码]</a></sub></p>
-    <p style="font-size: 1.15em;"><b>时间：</b> 2023.12 - 2024.8</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 计算机视觉，域适应</p>
-    <p style="font-size: 1.15em;"><b>角色：</b> 团队主力成员 / 第三作者</p>
-    <p style="font-size: 1.15em;"><b>研究背景：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>大多数语义分割模型在清晰场景下训练，但在雾天等恶劣天气条件下表现较差。</li>
-        <li>现有的领域自适应技术效果有限，特别是在不同城市风格的图像之间。</li>
-    </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li><b>多层次教师自训练：</b> 通过将大的域间隙拆解为多个小的域间隙，控制模型的自训练过程。</li>
-        <li><b>交替训练策略：</b> 结合源域参考信息，逐步掌握从源域到目标域的分割能力。</li>
-    </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>获得了中国机器人及人工智能大赛全国一等奖。<a href="https://samer-hue.github.io/docs/AWARDCRAICguo.pdf" style="color: #4b86b4;">[获奖证书]</a></li>
-        <li>论文正在写作中，预计投稿至 IEEE TCSVT。</li>
-    </ul>
-</div>
-
-<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🧠 科研经历 - 大语言模型、可视化</h2>
 
 <div style="margin-bottom: 30px;">
     <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">面向高效多租户LoRA服务的动态算子优化</h3>
@@ -205,49 +177,71 @@ redirect_from:
 </div>
 
 
-<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">📊 科研经历 - 数学建模</h2>
+
+<h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">📊 数学建模经历</h2>
 
 <div style="margin-bottom: 30px;">
     <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">母亲身心健康对婴儿睡眠质量的影响分析</h3>
     <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/docs/huashubei23C.pdf" style="color: #4b86b4;">[项目报告]</a></sub></p>
     <p style="font-size: 1.15em;"><b>时间：</b> 2023.7 - 2023.8</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 数学建模，关联分析，多目标优化</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 数学建模、关联分析、多目标优化</p>
     <p style="font-size: 1.15em;"><b>角色：</b> 团队队长</p>
-    <p style="font-size: 1.15em;"><b>研究背景：</b></p>
+    <p style="font-size: 1.15em;"><b>建模背景：</b></p>
     <ul style="font-size: 1.15em;">
-        <li>母亲的心理健康对婴儿认知和情感发展有重要影响，研究两者关系对母婴健康至关重要。</li>
+        <li>母亲的不良心理健康状态往往会对婴儿的认知情感等方面产生负面影响，因此，围绕母亲的身体心理指标与婴儿的睡眠指标之间的关系进行建模十分重要，其有利于提高母亲的心理健康水平、促进婴儿的生理心理上的健康发展。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
+    <p style="font-size: 1.15em;"><b>我们的论文：</b></p>
     <ul style="font-size: 1.15em;">
-        <li><b>SEM模型：</b> 建立结构方程模型，分析母亲的身体和心理指标对婴儿行为和睡眠质量的影响。</li>
-        <li><b>TOPSIS模型：</b> 使用TOPSIS模型量化母亲的身体和心理指标，并结合机器学习模型进行预测。</li>
+        <li>建立SEM模型，将母亲的身体和心理指标作为自变量，婴儿行为和睡眠质量作为因变量，分析路径系数，揭示母亲因素对婴儿的影响。</li>
+        <li>使用基于熵权法的TOPSIS模型量化身体和心理指标，并结合Adaboost、GBDT和随机森林构建Soft Voting分类器，预测婴儿行为特征，模型准确率达95%以上。</li>
+        <li>构建MIMO神经网络模型，输入母亲特征预测CBTS、EPDS和HADS得分，模型拟合优度达96.4%。</li>
+        <li>将婴儿睡眠质量的四分类任务视为无监督学习问题，采用K-means算法聚类，并通过TOPSIS模型和Soft Voting模型验证分类结果的合理性，模型准确率达91.6%。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>组织团队参加“华数杯”全国大学生数学建模竞赛，获得全国一等奖。</li>
-    </ul>
+    <p style="font-size: 1.15em;"><b>研究成果：</b> 作为队长组织团队参加2023年“华数杯”全国大学生数学建模竞赛，并获全国一等奖。</p>
 </div>
 
 <div style="margin-bottom: 30px;">
     <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">基于计算几何和遗传算法的多波束测深和测线布设模型</h3>
     <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/docs/shumoguosai23B.pdf" style="color: #4b86b4;">[项目报告]</a></sub></p>
     <p style="font-size: 1.15em;"><b>时间：</b> 2023.8 - 2023.9</p>
-    <p style="font-size: 1.15em;"><b>领域：</b> 数学建模，计算几何，多目标优化</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 数学建模、计算几何、多目标优化</p>
     <p style="font-size: 1.15em;"><b>角色：</b> 团队队长</p>
-    <p style="font-size: 1.15em;"><b>研究背景：</b></p>
+    <p style="font-size: 1.15em;"><b>建模背景：</b></p>
     <ul style="font-size: 1.15em;">
-        <li>传统海洋测绘效率低，多波束测深系统适合高效测量，但需要合理设计测线。</li>
+        <li>传统海洋测绘常用单波束测深系统，但在地形复杂处需多次测量，且对测量人员要求较高; 在现代海洋测绘中，高效率、高精度、全覆盖的多波束测深系统被更加广泛地应用; 为了使得多波束测深系统能够更加准确地测出数据，设计合适的测线显得极其重要。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>方法：</b></p>
+    <p style="font-size: 1.15em;"><b>我们的论文：</b></p>
     <ul style="font-size: 1.15em;">
-        <li><b>几何计算：</b> 应用平面几何定理计算测深覆盖宽度和重叠率，并求出真实值。</li>
-        <li><b>优化算法：</b> 设计两种测线布设方案，并通过几何公式和遗传算法求解。</li>
+        <li>通过多波束测深模型测量海底深度，并运用遗传算法优化海测线布设。</li>
+        <li>应用平面几何定理计算测深覆盖宽度和重叠率等公式，并依数据求出真实值。</li>
+        <li>将测量船与海底坡面的位置关系抽象为三棱锥体，利用立体几何定理分析不同测线夹角下的测深覆盖宽度与船距中心点的关系。</li>
+        <li>设计两种测线布设方案，通过几何公式和Bisinhopping算法求出最优解。</li>
+        <li>根据数据生成海底地形仿真图。</li>
+        <li>使用贪心算法将三个目标函数归一化，建立加权目标函数。</li>
+        <li>通过遗传算法多次迭代，得到最终解。</li>
     </ul>
-    <p style="font-size: 1.15em;"><b>成果：</b></p>
-    <ul style="font-size: 1.15em;">
-        <li>参加“高教社杯”全国大学生数学建模竞赛，获省级一等奖。</li>
-    </ul>
+    <p style="font-size: 1.15em;"><b>研究成果：</b> 作为队长组织团队参加2023年“高教社杯”全国大学生数学建模竞赛，并获省级一等奖。</p>
 </div>
+
+<div style="margin-bottom: 30px;">
+    <h3 style="font-family: Georgia, serif; font-size: 1.75em; color: #2a4d69;">基于仿真模拟的三角形纯方位无源定位模型</h3>
+    <p style="font-size: 1.15em;"><sub><a href="https://samer-hue.github.io/docs/shumoguosai22B.pdf" style="color: #4b86b4;">[项目报告]</a></sub></p>
+    <p style="font-size: 1.15em;"><b>时间：</b> 2022.8 - 2022.9</p>
+    <p style="font-size: 1.15em;"><b>领域：</b> 数学建模、仿真模拟</p>
+    <p style="font-size: 1.15em;"><b>角色：</b> 团队队长</p>
+    <p style="font-size: 1.15em;"><b>建模背景：</b></p>
+    <ul style="font-size: 1.15em;">
+        <li>无人机在当今的民用和军用方面都有很大的作用。在军用中,无人机常以编队的形式执行任务，此时，为避免被外界干扰以及被雷达探测，应当减少电磁信号的传播。因此如何在不同编队队形中通过无源探测定位的方式来有效调整无人机的位置显得尤为重要。</li>
+    </ul>
+    <p style="font-size: 1.15em;"><b>我们的论文：</b></p>
+    <ul style="font-size: 1.15em;">
+        <li>通过建立三角形纯方位无源定位模型确定圆形编队中无人机的位置，并通过仿真模拟验证模型的有效性，应用于不同编队。</li>
+        <li>为确定接收信号无人机的位置，建立三角形定位模型，假设角度测量呈正态分布，测量点位于某定位三角形中，通过仿真生成10000个正态分布点，计算它们与重心和内心的平均距离，最终选用内心代表测量点位置。</li>
+        <li>建立四点定位模型，四架无人机发射信号形成4个定位三角形，测量点处于4个三角形相交的公共区域内，面积小于任一三角形，从而减少误差，并通过计算4个三角形内心坐标的平均值有效定位无人机位置。</li>
+    </ul>
+    <p style="font-size: 1.15em;"><b>研究成果：</b> 作为队长组织团队参加2022年“高教社杯”全国大学生数学建模竞赛，并获省级一等奖。</p>
+</div>
+
 
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🏆 竞赛奖项</h2>
 
