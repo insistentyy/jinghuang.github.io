@@ -193,7 +193,7 @@ redirect_from:
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🥇 奖学金与荣誉</h2>
 
 <ul style="font-size: 1.15em;">
-    <li><b>2021-2022</b> <b>国家奖学金</b> (该年度年级成绩排名：1/108) **兰州大学** &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/guojiang.pdf)</li>
+    <li><b>2021-2022</b> <b>国家奖学金</b> (该年度年级成绩排名：1/108) **兰州大学** &nbsp;&nbsp;</li>
     <li><b>2021-2022</b> <b>兰州大学优秀学生一等奖学金</b> (获奖率：3%) **兰州大学** </li>
     <li><b>2021-2022</b> <b>兰州大学学生标兵</b> **兰州大学** </li>
 </ul>
