@@ -31,7 +31,7 @@ redirect_from:
 
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🎓 教育背景</h2>
 <ul style="font-size: 1.15em; margin-bottom: 30px;">
-    <li><b>排名：</b> GPA排名：<b>2/108 (1.8%)</b>、加权平均分排名：<b>2/108 (1.8%)</b> <span style="font-size: 15px;">[排名证明](https://samer-hue.github.io/docs/paimingzhengming.pdf)</span></li>
+    <li><b>排名：</b> GPA排名：<b>2/108 (1.8%)</b>、加权平均分排名：<b>2/108 (1.8%)</b> <span style="font-size: 15px;"></span></li>
     <li><b>成绩均分：</b> GPA：4.03/5.0、加权平均分：90.11/100</li>
     <li><b>语言能力：</b> 通过 CET4 和 CET6，独立撰写并发表两篇全英学术论文（均已被录用）</li>
     <li><b>核心课程：</b> 高等数学 (93)、线性代数 (97)、商务统计（即: 概率论与数理统计） (94)、数据结构 (97, 95)、计算机编程 (理论) (94, 100)、计算机编程 (实践) (97, 100)、数据管理 (99, 96)、信息可视化 (97)</li>
@@ -181,13 +181,13 @@ redirect_from:
 
 <ul style="font-size: 1.15em;">
     <li><b>Kaggle: Chatbot Arena Human Preference Predictions：铜牌</b> **国家级** 2024 &nbsp;&nbsp;[Leaderboard](https://www.kaggle.com/competitions/lmsys-chatbot-arena/leaderboard)</li>
-    <li><b>中国机器人及人工智能大赛(全国总决赛)：一等奖</b> **国家级** 2024 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDCRAICguo.pdf)</li>
-    <li><b>“华数杯”全国大学生数学建模竞赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDhuashubei.pdf)</li>
-    <li><b>全国大学生数据统计与分析竞赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDshujutongjifenxi.pdf)</li>
-    <li><b>“英语世界”杯全国大学生英语语法大赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDenglishgrammar.pdf)</li>
-    <li><b>“互联网＋”大学生创新创业大赛：金奖</b> **省部级** 2023 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDhulianwang+.pdf)</li>
-    <li><b>全国大学生数学建模竞赛：一等奖</b> **省部级** 2023 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDshumoguosai23.pdf)</li>
-    <li><b>全国大学生数学建模竞赛：一等奖</b> **省部级** 2022 &nbsp;&nbsp;[证明](https://samer-hue.github.io/docs/AWARDshumoguosai22.pdf)</li>
+    <li><b>中国机器人及人工智能大赛(全国总决赛)：一等奖</b> **国家级** 2024 &nbsp;&nbsp;</li>
+    <li><b>“华数杯”全国大学生数学建模竞赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;</li>
+    <li><b>全国大学生数据统计与分析竞赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;</li>
+    <li><b>“英语世界”杯全国大学生英语语法大赛：一等奖</b> **国家级** 2023 &nbsp;&nbsp;</li>
+    <li><b>“互联网＋”大学生创新创业大赛：金奖</b> **省部级** 2023 &nbsp;&nbsp;</li>
+    <li><b>全国大学生数学建模竞赛：一等奖</b> **省部级** 2023 &nbsp;&nbsp;</li>
+    <li><b>全国大学生数学建模竞赛：一等奖</b> **省部级** 2022 &nbsp;&nbsp;</li>
 </ul>
 
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🥇 奖学金与荣誉</h2>
