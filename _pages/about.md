@@ -252,22 +252,65 @@ redirect_from:
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🏆 竞赛奖项</h2>
 
 <ul style="font-size: 1.15em;">
-    <li><b>Kaggle: Chatbot Arena Human Preference Predictions：铜牌</b> <b>国家级</b> 2024 &nbsp;&nbsp;</li>
-    <li><b>中国机器人及人工智能大赛(全国总决赛)：一等奖</b> <b>国家级</b> 2024 &nbsp;&nbsp;</li>
-    <li><b>“华数杯”全国大学生数学建模竞赛：一等奖</b> <b>国家级</b> 2023 &nbsp;&nbsp;</li>
-    <li><b>全国大学生数据统计与分析竞赛：一等奖</b> <b>国家级</b> 2023 &nbsp;&nbsp;</li>
-    <li><b>“英语世界”杯全国大学生英语语法大赛：一等奖</b> <b>国家级</b> 2023 &nbsp;&nbsp;</li>
-    <li><b>“互联网＋”大学生创新创业大赛：金奖</b> <b>省部级</b> 2023 &nbsp;&nbsp;</li>
-    <li><b>全国大学生数学建模竞赛：一等奖</b> <b>省部级</b> 2023 &nbsp;&nbsp;</li>
-    <li><b>全国大学生数学建模竞赛：一等奖</b> <b>省部级</b> 2022 &nbsp;&nbsp;</li>
+    <li>
+        <b>Kaggle: Chatbot Arena Human Preference Predictions：银牌</b> 
+        <a href="https://www.kaggle.com/competitions/lmsys-chatbot-arena/leaderboard" style="color: #4b86b4;">[Leaderboard]</a>
+        <b>国家级</b> 2024
+    </li>
+    <li>
+        <b>中国机器人及人工智能大赛(全国总决赛)：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDCRAICguo.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>国家级</b> 2024
+    </li>
+    <li>
+        <b>“华数杯”全国大学生数学建模竞赛：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDhuashubei.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>国家级</b> 2023
+    </li>
+    <li>
+        <b>全国大学生数据统计与分析竞赛：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDshujutongjifenxi.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>国家级</b> 2023
+    </li>
+    <li>
+        <b>“英语世界”杯全国大学生英语语法大赛：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDenglishgrammar.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>国家级</b> 2023
+    </li>
+    <li>
+        <b>“互联网＋”大学生创新创业大赛：金奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDhulianwang+.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>省部级</b> 2023
+    </li>
+    <li>
+        <b>全国大学生数学建模竞赛：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDshumoguosai23.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>省部级</b> 2023
+    </li>
+    <li>
+        <b>全国大学生数学建模竞赛：一等奖</b> 
+        <a href="https://samer-hue.github.io/docs/AWARDshumoguosai22.pdf" style="color: #4b86b4;">[证明]</a>
+        <b>省部级</b> 2022
+    </li>
 </ul>
+
 
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">🥇 奖学金与荣誉</h2>
 
 <ul style="font-size: 1.15em;">
-    <li><b>2021-2022</b> <b>国家奖学金</b> (该年度年级成绩排名：1/108) <b>兰州大学</b> &nbsp;&nbsp;</li>
-    <li><b>2021-2022</b> <b>兰州大学优秀学生一等奖学金</b> (获奖率：3%) <b>兰州大学</b> </li>
-    <li><b>2021-2022</b> <b>兰州大学学生标兵</b> <b>兰州大学</b> </li>
+    <li>
+        <b>2021-2022</b> <b>国家奖学金</b> (该年度年级成绩排名：1/108) 
+        <a href="https://samer-hue.github.io/docs/guojiang.pdf" style="color: #4b86b4;">[国奖证书]</a> 
+        <b>兰州大学</b>
+    </li>
+    <li>
+        <b>2021-2022</b> <b>兰州大学优秀学生一等奖学金</b> (获奖率：3%) 
+        <b>兰州大学</b>
+    </li>
+    <li>
+        <b>2021-2022</b> <b>兰州大学学生标兵</b> 
+        <b>兰州大学</b>
+    </li>
 </ul>
 
 <h2 style="font-family: Georgia, serif; color: #2a4d69; border-bottom: 2px solid #4b86b4; padding-bottom: 5px;">📖 教育经历</h2>
